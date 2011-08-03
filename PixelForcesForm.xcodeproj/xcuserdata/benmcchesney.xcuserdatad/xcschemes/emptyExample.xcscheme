@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "PixelForcesDebug.app"
-               BlueprintName = "PixelForces"
-               ReferencedContainer = "container:PixelForces.xcodeproj">
+               BuildableName = "PixelForcesFormDebug.app"
+               BlueprintName = "PixelForcesForm"
+               ReferencedContainer = "container:PixelForcesForm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,9 +41,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "PixelForcesDebug.app"
-            BlueprintName = "PixelForces"
-            ReferencedContainer = "container:PixelForces.xcodeproj">
+            BuildableName = "PixelForcesFormDebug.app"
+            BlueprintName = "PixelForcesForm"
+            ReferencedContainer = "container:PixelForcesForm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "PixelForcesDebug.app"
-            BlueprintName = "PixelForces"
-            ReferencedContainer = "container:PixelForces.xcodeproj">
+            BuildableName = "PixelForcesFormDebug.app"
+            BlueprintName = "PixelForcesForm"
+            ReferencedContainer = "container:PixelForcesForm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

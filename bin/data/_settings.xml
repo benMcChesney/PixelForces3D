@@ -1,0 +1,14 @@
+<controls>
+    <SliderFloat_forceRadius>
+        <name>forceRadius</name>
+        <value>45.000000</value>
+    </SliderFloat_forceRadius>
+    <SliderFloat_friction>
+        <name>friction</name>
+        <value>0.850000</value>
+    </SliderFloat_friction>
+    <SliderFloat_springFactor>
+        <name>springFactor</name>
+        <value>0.120000</value>
+    </SliderFloat_springFactor>
+</controls>

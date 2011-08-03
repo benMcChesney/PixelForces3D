@@ -11,22 +11,24 @@
 #define _PARTICLE
 
 #include "ofMain.h" 
+#include "ofxVec3f.h"
 
 class Particle
 {
     public : 
         Particle() ; 
-        Particle( ofPoint _position , ofColor _color ) 
+        Particle( ofxVec3f _position , ofColor _color ) 
         {
             position = _position ; 
             color = _color ; 
-            velocity = ofPoint ( ofRandom ( -5 , 5 ) , ofRandom ( -5 , 5 ) ) ; 
+            velocity = ofxVec3f ( ofRandom ( -2 , 2 ) , ofRandom ( -2 , 2 ) , ofRandom ( -2 , -2 ) ) ; 
             spawnPoint = _position ; 
         }
     
-        ofPoint position , velocity ; 
-        ofPoint acceleration ;          //smoothing applied to velocity
-        ofPoint spawnPoint ;            //original location to line up the picture
+        ofxVec3f position , velocity ; 
+        ofxVec3f acceleration ;          //smoothing applied to velocity
+        ofxVec3f spawnPoint ;            //original location to line up the picture
         ofColor color ; 
+        
 };
 #endif
