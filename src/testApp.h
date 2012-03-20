@@ -4,13 +4,8 @@
 
 #include "ofMain.h"
 #include "Particle.h"
-#include "ofxShader.h"
-#include "ofxFBOTexture.h"
-#include "shaderBlur.h"
-#include "ofxDirList.h"
-#include "ofxSimpleGuiToo.h"
-#include "MSAShape3D.h"
-#include "ofxVec3f.h"
+
+#include "ofVec3f.h"
 
 class testApp : public ofBaseApp{
 
@@ -29,7 +24,6 @@ class testApp : public ofBaseApp{
         void setupParticles() ; 
        
         ofImage image ;                 //image to load
-        ofImage image2 ; 
         int sampling ;                  //pixels to skip
         vector<Particle> particles ;    //vector to store pixels
         int numParticles ;          //Number of particles 
@@ -41,25 +35,23 @@ class testApp : public ofBaseApp{
         float springFactor ;          //how much the particle "springs" back to origin
         int cursorMode ;
     
-        //shape3d
-        MSA::Shape3D	myObj;
-    
-        shaderBlur blur ; 
-        ofxFBOTexture fbo ; 
-    
+        ofFbo fadeFbo ; 
         int curImageIndex ; 
     
         //Directory list
         int 		nImages;
         ofImage	* 	images;
-        ofxDirList   DIR;
+        ofDirectory   DIR;
     
         unsigned char r , g , b ; 
-
-        ofxSimpleGuiToo	gui;
+    
         ofPoint mousePos ; 
         ofPoint offset ; 
         ofPoint startDrag ; 
+    
+        int fadeAlpha ; 
+    
+        
     
 };
 
